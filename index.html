@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Antangin — Luxury Herbal Wellness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="scroll-progress"></div>
+
+    <div id="loader" class="loader">
+      <div class="loader-content">
+        <div class="loader-logo">ANTANGIN</div>
+        <div class="loader-bar"></div>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">ANTANGIN</div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#products" class="nav-link">Collection</a></li>
+          <li><a href="#story" class="nav-link">Our Story</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        </ul>
+        <button class="nav-cart magnetic-btn">Cart (0)</button>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-bg parallax-bg"></div>
+      <div class="hero-content fade-in">
+        <p class="hero-subtitle">Premium Herbal Wellness</p>
+        <h1 class="hero-title">The Art of<br>Natural Balance</h1>
+        <p class="hero-description">Experience the timeless elegance of traditional herbal remedies,<br>crafted for the modern connoisseur</p>
+        <button class="hero-btn magnetic-btn">Explore Collection</button>
+      </div>
+      <div class="scroll-indicator">
+        <span>Scroll to explore</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section id="story" class="brand-story fade-in">
+      <div class="story-container">
+        <div class="story-content">
+          <p class="section-subtitle">Heritage & Innovation</p>
+          <h2 class="section-title">A Legacy of<br>Herbal Excellence</h2>
+          <p class="story-text">
+            For generations, Antangin has embodied the perfect synthesis of traditional Indonesian herbal wisdom and contemporary wellness philosophy. Each variant is meticulously crafted to deliver unparalleled efficacy while honoring the timeless rituals of natural healing.
+          </p>
+          <p class="story-text">
+            Our commitment to excellence extends beyond the product itself. We source only the finest botanicals, employ rigorous quality standards, and present our remedies in packaging that reflects their precious contents.
+          </p>
+        </div>
+        <div class="story-image parallax-element">
+          <img src="https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Herbal ingredients">
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits" class="benefits fade-in">
+      <div class="benefits-container">
+        <div class="benefit-item">
+          <div class="benefit-icon">✦</div>
+          <h3 class="benefit-title">Pure Ingredients</h3>
+          <p class="benefit-text">Sourced from the finest botanical gardens, ensuring uncompromising quality</p>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">✦</div>
+          <h3 class="benefit-title">Time-Honored Formula</h3>
+          <p class="benefit-text">Traditional recipes refined through generations of herbal expertise</p>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">✦</div>
+          <h3 class="benefit-title">Modern Elegance</h3>
+          <p class="benefit-text">Contemporary presentation meets classic efficacy in perfect harmony</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products fade-in">
+      <div class="products-header">
+        <p class="section-subtitle">Our Collection</p>
+        <h2 class="section-title">Exquisite Variants</h2>
+      </div>
+      <div class="products-grid" id="products-grid">
+        <div class="loading-skeleton"></div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials fade-in">
+      <div class="testimonials-header">
+        <p class="section-subtitle">Client Experiences</p>
+        <h2 class="section-title">Voices of Wellness</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Antangin has become an essential part of my daily wellness ritual. The quality and elegance of their products are unmatched."</p>
+          <div class="testimonial-author">
+            <p class="author-name">Sophia Laurent</p>
+            <p class="author-title">Wellness Curator</p>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">"The perfect fusion of tradition and modernity. Each variant delivers exactly what it promises with remarkable sophistication."</p>
+          <div class="testimonial-author">
+            <p class="author-name">Marcus Chen</p>
+            <p class="author-title">Lifestyle Consultant</p>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">"From the moment you experience Antangin, you understand you're engaging with something truly exceptional and refined."</p>
+          <div class="testimonial-author">
+            <p class="author-name">Isabella Rossi</p>
+            <p class="author-title">Holistic Practitioner</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3 class="footer-logo">ANTANGIN</h3>
+          <p class="footer-tagline">Premium Herbal Wellness</p>
+        </div>
+        <div class="footer-section">
+          <h4 class="footer-title">Explore</h4>
+          <ul class="footer-links">
+            <li><a href="#products">Collection</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4 class="footer-title">Support</h4>
+          <ul class="footer-links">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4 class="footer-title">Connect</h4>
+          <ul class="footer-links">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Antangin. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
